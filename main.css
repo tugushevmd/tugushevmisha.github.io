@@ -1,0 +1,36 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #fafafa;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    background-color: #d2d8ff;
+    display: flex;
+}
+
+.menu {
+    width: 100%;
+}
+
+header ul,
+footer ul {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+
+    background-color: #f1f1f1;
+}
+
+ul {
+    list-style-type: none;
+
+}
